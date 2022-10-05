@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Grape+Nuts&family=Playfair+Display:ital,wght@1,400;1,800&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    display: flex;
+}
+.sidebar{
+    /* width: 250px; */
+    position: absolute;
+    background-color: rgb(0, 138, 138);
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebarGo{
+    transform: translate(-250px,0px);
+    position: absolute;
+}
+
+.sidebar nav{
+    height: 100%;
+    padding: 50px;
+}
+
+.sidebar li{
+    list-style: none;
+    padding-top: 50px;
+    font-size: 25px;
+}
+
+.sidebar li a{
+    text-decoration: none;
+    color: white;
+}
+
+.main{
+    width: 88vw;
+    /* background-color: antiquewhite; */
+    
+}
+
+.infocontainer{
+    width: 80vw;
+    height: 40vh;
+    /* background-color: blueviolet; */
+    margin: 65px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.myInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    font-family: 'Grape Nuts', cursive;
+    margin-left: 120px;
+}
+
+.hello{
+    font-size: 50px;
+}
+
+.name{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Alkalami', serif;
+}
+
+.about{
+    font-size: 35px;
+}
+
+.moreabout{
+    font-family:  serif;
+    margin-top: 20px;
+}
+
+.btns button{
+    margin-top: 30px;
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: #3fabcd;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+
+.btns button:hover{
+    background-color: white;
+    color:#3fabcd ;
+}
+
+.hambar{
+    position: absolute;
+    cursor: pointer;
+    top: 6px;
+    left: 10px;
+}
+
+.cut{
+    margin-left: 140px;
+    background-color: rgb(0, 138, 138);
+}
+
+
+
+@media(max-width:1330px){
+    .myPic{
+        display: none;
+    }
+}

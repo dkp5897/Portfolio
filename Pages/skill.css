@@ -1,0 +1,45 @@
+.skills{
+    display:  flex;
+}
+
+.skillheading{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.skillheading h1{
+    text-decoration: underline;
+    margin: 20px;
+    font-size: 50px;
+}
+
+.skillheading span{
+    background-color: blue;
+    color: antiquewhite;
+}
+
+.skillheading h3{
+    letter-spacing: 3px;
+    font-size: 25px;
+    text-decoration:dashed;
+}
+
+ p{
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: darkslategray;
+    font-weight: 600;
+}
+
+.skillimg{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px auto;
+}
+
+.skillimg img{
+    margin: 15px;
+    width: 150px;
+    height: 140px;
+}

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Gemunu+Libre&family=Grape+Nuts&family=Playfair+Display:ital,wght@1,400;1,800&display=swap');
+
+
+.introduction{
+    display: flex;
+    justify-content: right;
+    margin-left: 60px;
+}
+
+.introduction img{
+    width: 60vw;
+    height: 800px;;
+}
+
+.introInfo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 50px;
+    margin-left: 150px;
+}
+
+.introInfo h1{
+    font-family: 'Alkalami', serif;
+    color: cornflowerblue;
+}
+
+.introInfo p{
+    margin: 20px;
+    font-size: 25px;
+}
+
+@media(max-width:1330px){
+    .introduction img{
+        width: 60vw;
+        height: 600px;
+    }
+}
